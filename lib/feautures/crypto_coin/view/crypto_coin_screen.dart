@@ -20,6 +20,7 @@ class _CryptoCoinScreenState extends State<CryptoCoinScreen> {
     });
     super.didChangeDependencies();
   }
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text(coinName ?? '...'),),
